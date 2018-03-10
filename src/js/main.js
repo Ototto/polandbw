@@ -1,34 +1,34 @@
 AOS.init();
 
-            $(function () {
-                $('.material-card > .mc-btn-action').click(function () {
-                    var card = $(this).parent('.material-card');
-                    var icon = $(this).children('i');
-                    icon.addClass('fa-spin-fast');
+$(function () {
+    $('.material-card > .mc-btn-action').click(function () {
+        var card = $(this).parent('.material-card');
+        var icon = $(this).children('i');
+        icon.addClass('fa-spin-fast');
 
-                    if (card.hasClass('mc-active')) {
-                        card.removeClass('mc-active');
+        if (card.hasClass('mc-active')) {
+            card.removeClass('mc-active');
 
-                        window.setTimeout(function () {
-                            icon
-                                .removeClass('glyphicon-arrow-left')
-                                .removeClass('fa-spin-fast')
-                                .addClass('glyphicon glyphicon-th');
+            window.setTimeout(function () {
+                icon
+                    .removeClass('glyphicon-arrow-left')
+                    .removeClass('fa-spin-fast')
+                    .addClass('glyphicon glyphicon-th');
 
-                        }, 800);
-                    } else {
-                        card.addClass('mc-active');
+            }, 800);
+        } else {
+            card.addClass('mc-active');
 
-                        window.setTimeout(function () {
-                            icon
-                                .removeClass('glyphicon glyphicon-th')
-                                .removeClass('fa-spin-fast')
-                                .addClass('glyphicon-arrow-left');
+            window.setTimeout(function () {
+                icon
+                    .removeClass('glyphicon glyphicon-th')
+                    .removeClass('fa-spin-fast')
+                    .addClass('glyphicon-arrow-left');
 
-                        }, 800);
-                    }
-                });
-            });
+            }, 800);
+        }
+    });
+});
 
 var smoothScroll = function () {
     console.log(this);
@@ -113,26 +113,26 @@ function showEvents(jsonObj) {
         // myArticle.appendChild(myDesc);
         // eventsDiv.appendChild(myArticle);
 
-        $('<h2>'+events[i].name+'</h2>')
-        .addClass('e-event')
-        .appendTo('#events_list');
+        $('<h2>' + events[i].name + '</h2>')
+            .addClass('e-event')
+            .appendTo('#events_list');
 
-        $('<div><span>Kiedy? </span>'+dateAndTime(events[i].start_time)+'</div>')
-        .addClass('e-when')
-        .appendTo('#events_list');
+        $('<div><span>Kiedy? </span>' + dateAndTime(events[i].start_time) + '</div>')
+            .addClass('e-when')
+            .appendTo('#events_list');
 
-        $('<div><span>Gdzie? </span>'+events[i].place.name+'</div>')
-        .addClass('e-when e-border')
-        .appendTo('#events_list');
+        $('<div><span>Gdzie? </span>' + events[i].place.name + '</div>')
+            .addClass('e-when e-border')
+            .appendTo('#events_list');
 
-      
-        $('<p>'+events[i].description+'</p>')
-        .addClass('e-opis')
-        .appendTo('#events_list');
+
+        $('<p>' + events[i].description + '</p>')
+            .addClass('e-opis')
+            .appendTo('#events_list');
 
         $('<p>Serdecznie zapraszamy!</p>')
-        .addClass('tmp')
-        .appendTo('#events_list');
+            .addClass('tmp')
+            .appendTo('#events_list');
 
     }
 }
