@@ -34,7 +34,10 @@ h2 {
 .page-section .title {
   margin-bottom: 25px;
   background-color: #548faf !important;
-  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
   background-color: #548faf;
   width: 100%;
   height: 150px;
@@ -1413,6 +1416,11 @@ h1,
 h2,
 h3 {
   font-weight: 200;
+}
+@media screen and (max-width: 991px) {
+  .material-card h2 span {
+    word-spacing: 400px;
+  }
 }
 #events-list {
   color: black;
