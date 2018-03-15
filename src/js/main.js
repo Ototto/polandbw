@@ -57,7 +57,7 @@ var navbarControl = new function () {
             });
         } else {
             $('.navbar').css({
-                'background-color': '#B0E0E6',
+                'background-color': '#548faf',
                 'transition': '0.3s',
             });
         }
@@ -113,7 +113,7 @@ function showEvents(jsonObj) {
         // myArticle.appendChild(myDesc);
         // eventsDiv.appendChild(myArticle);
 
-        $('<h2>' + events[i].name + '</h2>')
+        $('<h2><a href="https://www.facebook.com/events/' + events[i].id + '/"' + '>' + events[i].name + '</a></h2>')
             .addClass('e-event')
             .appendTo('#events_list');
 
