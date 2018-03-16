@@ -37,7 +37,7 @@ h2 {
 }
 
 .page-section {
-    padding: 0px 20px 30px 0px;
+    padding: 0px 0px 30px 0px;
     text-align: center;
     .title {
         margin-bottom: 25px;
@@ -79,6 +79,8 @@ h2 {
 .navbar-light .navbar-nav .nav-link {
     color: black;
 }
+
+
 
 //zdjecia
 #slider-main {
@@ -258,6 +260,7 @@ h2 {
   color: #fff;
   cursor: pointer;
   z-index: 20;
+  font-size: 24px;
 }
 .material-card .mc-description {
   position: absolute;
@@ -889,7 +892,8 @@ h3 {
   text-decoration: none;
 
   img{
-    width: 50px;
+    width: 30px;
+    margin-top: 6px;
   }
 }
 
@@ -900,3 +904,19 @@ h3 {
 
 /*# sourceMappingURL=style.css.map */
 
+.floating-logo{
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-filter: drop-shadow(1px 1px 0 white)
+  drop-shadow(-1px -1px 0 white);
+  filter: drop-shadow(1px 1px 0 white) 
+  drop-shadow(-1px -1px 0 white);
+  width: 50%;
+}
+
+@media screen and (min-width: 768px){
+  .floating-logo{
+    width: 350px;
+  }
+}

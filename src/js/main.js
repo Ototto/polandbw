@@ -1,35 +1,5 @@
 AOS.init();
 
-$(function () {
-    $('.material-card > .mc-btn-action').click(function () {
-        var card = $(this).parent('.material-card');
-        var icon = $(this).children('i');
-        icon.addClass('fa-spin-fast');
-
-        if (card.hasClass('mc-active')) {
-            card.removeClass('mc-active');
-
-            window.setTimeout(function () {
-                icon
-                    .removeClass('glyphicon-arrow-left')
-                    .removeClass('fa-spin-fast')
-                    .addClass('glyphicon glyphicon-th');
-
-            }, 800);
-        } else {
-            card.addClass('mc-active');
-
-            window.setTimeout(function () {
-                icon
-                    .removeClass('glyphicon glyphicon-th')
-                    .removeClass('fa-spin-fast')
-                    .addClass('glyphicon-arrow-left');
-
-            }, 800);
-        }
-    });
-});
-
 var smoothScroll = function () {
     console.log(this);
     console.log(event);
