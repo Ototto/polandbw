@@ -58,7 +58,7 @@ request.onload = function () {
         showEvents(fbEvents);
     }
     else {
-        $('#wydarzenia').append("<div>Na tą chwilę nie ma żadnych wydarzeń</div>");
+        $('#wydarzenia').append("<div class='noevents'>Na tą chwilę nie ma żadnych wydarzeń</div>");
     }
 }
 function showEvents(jsonObj) {
