@@ -85,6 +85,7 @@ h2 {
 //zdjecia
 #slider-main {
     margin-top: 65px;
+    width: 55%;
 }
 .carousel-inner {
     img {
@@ -231,6 +232,13 @@ h2 {
   top: auto;
   bottom: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .carousel-inner img{
+    min-height: auto;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .material-card.mc-active {
     padding-bottom: 0;
@@ -905,20 +913,38 @@ h3 {
 /*# sourceMappingURL=style.css.map */
 
 .floating-logo{
-  position: absolute;
-  top: 0;
-  right: 0;
+  max-height: 50vh;
+  display: inline-block;
+  margin-right: 5%;
+    margin-top: 7%;
+  float: right;
   -webkit-filter: drop-shadow(1px 1px 0 white)
   drop-shadow(-1px -1px 0 white);
   filter: drop-shadow(1px 1px 0 white) 
   drop-shadow(-1px -1px 0 white);
-  width: 50%;
+  // width: 30%;
 }
 
-@media screen and (min-width: 768px){
+#o-nas{
+  margin-top: -5px;
+}
+
+.topmain{
+  margin: -6px;
+}
+
+#slider-main{
+  display: inline-block;
+} 
+
+@media screen and (max-width: 1000px){
   .floating-logo{
-    width: 350px;
+    display: none;
   }
+
+  #slider-main{
+    width: 100%;
+  } 
 }
 
 .noevents{
@@ -941,8 +967,6 @@ h3 {
     color: black;
     
   }
-
-
 
   h5:hover{
     color: #fff;
