@@ -842,12 +842,17 @@ h3 {
   padding: 12px;
 }
 /*# sourceMappingURL=style.css.map */
-.floating-logo {
-  max-height: 50vh;
+.floating-image-container {
   display: inline-block;
-  margin-right: 5%;
-  margin-top: 7%;
+  width: 45%;
   float: right;
+  margin-top: 65px;
+  max-height: 50vh;
+  min-height: 55vh;
+  text-align: center;
+  padding-top: 55px;
+}
+.floating-logo {
   -webkit-filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px -1px 0 white);
   filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px -1px 0 white);
 }
@@ -861,7 +866,8 @@ h3 {
   display: inline-block;
 }
 @media screen and (max-width: 1000px) {
-  .floating-logo {
+  .floating-logo,
+  .floating-image-container {
     display: none;
   }
   #slider-main {
