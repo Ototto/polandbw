@@ -855,6 +855,7 @@ h3 {
 .floating-logo {
   -webkit-filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px -1px 0 white);
   filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px -1px 0 white);
+  width: 50%;
 }
 #o-nas {
   margin-top: -5px;
