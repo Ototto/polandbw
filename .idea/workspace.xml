@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="327c0fc9-c946-459d-ae83-643246499492" name="Default" comment="" />
+    <list default="true" id="327c0fc9-c946-459d-ae83-643246499492" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,8 +19,8 @@
       <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1958">
-              <caret line="89" column="9" lean-forward="false" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+            <state relative-caret-position="855">
+              <caret line="90" column="9" lean-forward="false" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -105,7 +107,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Ruby24-x64/bin/lessc.bat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dev/MinoIst/minoistclient" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
@@ -138,14 +140,16 @@
       <workItem from="1520320215214" duration="322000" />
       <workItem from="1521142734333" duration="312000" />
       <workItem from="1522137665652" duration="291000" />
+      <workItem from="1522810935412" duration="708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2845000" />
+    <option name="totallyTimeSpent" value="3553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11927083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -193,6 +197,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html" />
     <entry file="file://$PROJECT_DIR$/src/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
@@ -221,8 +233,8 @@
     <entry file="file://$PROJECT_DIR$/src/index.html" />
     <entry file="file://$PROJECT_DIR$/src/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1958">
-          <caret line="89" column="9" lean-forward="false" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+        <state relative-caret-position="855">
+          <caret line="90" column="9" lean-forward="false" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
           <folding />
         </state>
       </provider>

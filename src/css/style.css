@@ -46,6 +46,9 @@ h2 {
 .page-section .text-content {
   text-align: left;
 }
+.fb-attach:hover {
+  opacity: 0.7;
+}
 .navbar {
   padding-top: 4px;
   background-color: #548faf;
@@ -60,7 +63,10 @@ h2 {
   filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px -1px 0 white);
 }
 .navbar-light .navbar-nav .nav-link {
-  color: black;
+  color: #fff;
+}
+.nav-link:hover {
+  opacity: 0.7;
 }
 #slider-main {
   margin-top: 65px;
@@ -844,7 +850,7 @@ h3 {
 /*# sourceMappingURL=style.css.map */
 .floating-image-container {
   display: inline-block;
-  width: 45%;
+  width: 32%;
   float: right;
   margin-top: 65px;
   max-height: 50vh;
@@ -855,7 +861,7 @@ h3 {
 .floating-logo {
   -webkit-filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px -1px 0 white);
   filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px -1px 0 white);
-  width: 50%;
+  width: 60%;
 }
 #o-nas {
   margin-top: -5px;
@@ -865,6 +871,12 @@ h3 {
 }
 #slider-main {
   display: inline-block;
+  width: 59%;
+}
+@media screen and (min-width: 1001px) {
+  #slider-main {
+    margin-left: 8%;
+  }
 }
 @media screen and (max-width: 1000px) {
   .floating-logo,

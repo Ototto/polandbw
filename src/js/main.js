@@ -19,13 +19,18 @@ var navbarControl = new function () {
         // var screenHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0) - 60;
         var pxToMove = 50;
         if ($(window).scrollTop() >= pxToMove) {
+            $('.nav-link').css({
+                'color': 'black',
+            });
             $('.navbar').css({
                 'background-color': 'white',
                 'transition': '0.3s',
-                'color': 'white',
                 'box-shadow': '0 2px 2px #999'
             });
         } else {
+            $('.nav-link').css({
+                'color': 'white',
+            });
             $('.navbar').css({
                 'background-color': '#548faf',
                 'transition': '0.3s',
